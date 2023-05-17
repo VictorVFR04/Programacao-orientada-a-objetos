@@ -5,8 +5,9 @@
 package com.mycompany.ex1;
 
 /**
- *
- * @author aluno
+ * Crie uma classe abstrata chamada "FormaGeometrica" com um método abstrato "calcularArea()". Em seguida, 
+ * crie duas subclasses chamadas "Retangulo" e "Circulo" que herdam da classe "FormaGeometrica" e implementam 
+ * o método "calcularArea()" de maneiras diferentes.
  */
 public class Retangulo extends FormaGeometrica {
     double Area;

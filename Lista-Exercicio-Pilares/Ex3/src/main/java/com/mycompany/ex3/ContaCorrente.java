@@ -5,12 +5,12 @@
 package com.mycompany.ex3;
 
 /**
- *
- * @author aluno
+ *Crie uma classe chamada "ContaCorrente" que herda da classe "ContaBancaria" e possui 
+ *um método para calcular o valor do cheque especial disponível para o titular da conta.
  */
 public class ContaCorrente extends ContaBancaria{
     
-    public void Calcular_Cheque_Especial(){
-        System.out.println("O titular"+getTitular());
+    public void CalcularChequeEspecial(){
+        System.out.println("Titular: "+getTitular()+"Valor Cheque Especial: ");
     }
 }
